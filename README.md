@@ -59,6 +59,10 @@ Required for registering and using slash commands, which are used for bot intera
 ### Additional Information
 The bot limits users to 3 uses of the /generate command per day.
 
+OpenAi rate limits your requests depending on account level, you can see more information here: https://platform.openai.com/docs/guides/rate-limits/usage-tiers?context=tier-free
+
+Prompts are reviewed by the Moderation API from openAI, more information here: https://platform.openai.com/docs/guides/moderation/moderation
+
 The Dall-E API endpoint is used for image generation, and the generated image is displayed in a Discord embed.
 
 ## Troubleshooting
