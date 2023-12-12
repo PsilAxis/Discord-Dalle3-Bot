@@ -61,7 +61,7 @@ The bot limits users to 3 uses of the /generate command per day.
 
 The Dall-E API endpoint is used for image generation, and the generated image is displayed in a Discord embed.
 
-Troubleshooting
+## Troubleshooting
 
 If you encounter any issues or have questions, feel free to open an issue in this repository.
 
