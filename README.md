@@ -5,7 +5,7 @@ This repository contains a Discord bot that generates images using the OpenAI Da
 Follow these instructions to set up and run the bot on your Discord server.
 
 ## Prerequisites
-Node.js installed on your machine
+Node.js installed on your machine - https://nodejs.org/en/download
 
 Discord bot Token and Client ID - https://discord.com/developers/applications
 
