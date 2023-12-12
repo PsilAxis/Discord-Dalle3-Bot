@@ -36,7 +36,8 @@ const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 const commandUsage = {};
 
 // Queue to manage image generation requests
-// Queue is required because of my openai account level which only allows 1 image generation request per minute.
+// Queue is required because of my openai account level which only allows 1 image generation request per minute. 
+// More Info on rate limits here: https://platform.openai.com/docs/guides/rate-limits/usage-tiers?context=tier-free
 const imageGenerationQueue = [];
 let isImageGenerationInProgress = false;
 

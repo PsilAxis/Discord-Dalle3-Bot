@@ -1,5 +1,6 @@
 const axios = require('axios');
 
+// More information on image generation here: https://platform.openai.com/docs/guides/images/usage?context=node&lang=node.js
 async function DalleApi(prompt) {
   try {
     const response = await axios.post('https://api.openai.com/v1/images/generations', {

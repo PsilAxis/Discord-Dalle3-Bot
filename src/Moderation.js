@@ -1,5 +1,6 @@
 const axios = require('axios');
 
+//More information on Moderation Api here: https://platform.openai.com/docs/guides/moderation/moderation
 // Function to check the user's input against the moderation API
 async function moderationCheck(prompt) {
     try {
